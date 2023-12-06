@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 10px; */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    align-items: center;
+    background: transparent;
+    padding: 5px;
+    margin-top: 0;
+    backdrop-filter: blur(20px);
+}
+
+.header-container {
+    background-color: rgb(57, 220, 166);
+}
+
+.logoimage {
+    font-size: 5rem;
+}
+
+.nav>ul {
+    display: flex;
+    align-self: center;
+}
+
+.nav>ul>li {
+    margin: 5px 20px;
+    font-size: 2rem;
+    list-style: none;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.restaurent-card {
+    width: 25rem;
+    height: 26rem;
+    border: 1px solid gray;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.restaurent-image {
+    width: 100%;
+
+    margin-bottom: 10px;
+    justify-self: center;
+
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+
+
+}
+
+h2,
+h3,
+h4 {
+    margin-bottom: 5px;
+    color: black;
+    padding-left: 10px;
+}
+
+.immage-container {
+    border-radius: 25px;
+}
